@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>facebook lite website</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- nav start  -->
+    <nav>
+      <div class="nav-left">
+        <img src="./img/logo.png" class="logo" />
+        <ul>
+          <li><img src="./img/notification.png" /></li>
+          <li><img src="./img/inbox.png" li /></li>
+          <li><img src="./img/video.png " /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="./img/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()" >
+          <img src="./img/hemel.jpg" />
+        </div>
+      </div>
+      <!-- settings menu -->
+      <div class="settings-menu">
+        <div id="dark-btn"  class="dark-btn-on">
+<span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="./img/hemel.jpg" >
+            <div>
+              <p>John Nicholson</p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr>
+  <div class=" ">
+    <div class="user-profile">
+      <img src="./img/feedback.png" >
+      <div>
+        <p>Give Feedback </p>
+        <a href="#">Help us to improve new design</a>
+      </div>
+    </div>
+  </div> 
+  <hr>
+
+  <div class="settings-links">
+    <img src="./img/setting.png" class="setting-icon">
+    <a href="#">Setting & privacy <img src="./img/arrow.png" width="10px"></a>
+  </div>
+  <div class="settings-links">
+    <img src="./img/help.png" class="setting-icon">
+    <a href="#">Help & support <img src="./img/arrow.png" width="10px"></a>
+  </div>
+  <div class="settings-links">
+    <img src="./img/display.png" class="setting-icon">
+    <a href="#">Display & Accessibility <img src="./img/arrow.png" width="10px"></a>
+  </div>
+  <div class="settings-links">
+    <img src="./img/logout.png" class="setting-icon">
+    <a href="#">Logout <img src="./img/arrow.png" width="10px"></a>
+  </div>
+        </div>
+      
+</div>
+<!-- settings menu end -->
+
+
+
+
+    </nav>
+<!-- nav end -->
+    <div class="container">
+      <!-- left-sidebar -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="./img/news.png" />Latest News</a>
+          <a href="#"><img src="./img/friends.png" />Friends</a>
+          <a href="#"><img src="./img/group.png" />Group</a>
+          <a href="#"><img src="./img/marketplace.png" />marketplace</a>
+          <a href="#"><img src="./img/watch.png" />watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your Shortcut</p>
+          <a href="#"><img src="./img/shortcut-1.png" />Web Devoloer</a>
+          <a href="#"><img src="./img/shortcut-2.png" />Web Deeign</a>
+          <a href="#"
+            ><img src="./img/shortcut-3.png" />Full Stack Devolopment</a
+          >
+          <a href="#"><img src="./img/shortcut-4.png" />Wensite Experts</a>
+        </div>
+      </div>
+      <!-- main-content -->
+
+      <div class="main-content">
+
+<div class="story-gallery">
+    <div class="story story1">
+        <img src="./img/upload.png">
+        <p>Post Story</p>
+    </div>
+    <div class="story story2">
+        <img src="./img/member-2.png">
+        <p>Alison</p>
+    </div>
+    <div class="story story3">
+        <img src="./img/member-.png">
+        <p>Jacson</p>
+    </div>
+    <div class="story story4">
+        <img src="./img/member-9.png">
+        <p>Samonay</p>
+    </div>
+    <div class="story story5">
+        <img src="./img/member-4.png">
+        <p>John Doe</p>
+    </div>
+</div>
+<div class="write-post-container">
+  <div class="user-profile">
+    <img src="./img/hemel.jpg" >
+    <div>
+      <p>John Nicholson</p>
+      <small>Public  <i class="fa-solid fa-sort-down"></i> </small>
+    </div>
+  </div>
+  <div class="post-input-container">
+    <textarea  rows="3" placeholder="Whast's on your mind ,John?" ></textarea>
+    <div class="add-post-links">
+      <a href="#"><img src="./img/live-video.png">Live Video</a>
+      <a href="#"><img src="./img/photo.png">Photo/ Video</a>
+      <a href="#"><img src="./img/feeling.png">Feeling/Activity</a>
+    </div>
+  </div>
+</div>
+
+<!-- post-container 1 start -->
+<div class="post-container">
+  <div class="post-row">
+    <div class="user-profile">
+      <img src="./img/hemel.jpg" >
+      <div>
+        <p>John Nicholson</p>
+        <span>June 24 2021,13:40pm </span>
+      </div>
+    </div>
+    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+  </div>
+  
+  <p class="post-text" >Hello friends ,my name <span>@hemel khan</span> my github user name <a href="#">#prankhan</a> <a href="#">#github</a> </p>
+  <img src="./img/feed-1.jpg" class="post-img">
+  <div class="post-row">
+    <div class="activity-icons">
+      <div><img src="./img/like-blue.png">102k</div>
+      <div><img src="./img/comments.png">2k</div>
+      <div><img src="./img/share.png">3.5k</div>
+    </div>
+    <div class="post-profile-icon">
+<img src="./img/hemel.jpg"> <i class="fa-solid fa-sort-down"></i>
+    </div>
+  </div>
+</div>
+<!-- post-container 1 end -->
+
+<!-- post-container 2 start -->
+<div class="post-container">
+  <div class="post-row">
+    <div class="user-profile">
+      <img src="./img/hemel.jpg" >
+      <div>
+        <p>John Nicholson</p>
+        <span>June 24 2021,13:40pm </span>
+      </div>
+    </div>
+    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+  </div> 
+  
+  <p class="post-text" >Rating my work on github account to this work <span>@prankhan</span> my github user name <a href="#">#prankhan</a> <a href="#">#github</a> </p>
+  <img src="./img/feed-2.jpg" class="post-img">
+  <div class="post-row">
+    <div class="activity-icons">
+      <div><img src="./img/like.png">2k</div>
+      <div><img src="./img/comments.png">200</div>
+      <div><img src="./img/share.png">50</div>
+    </div>
+    <div class="post-profile-icon">
+<img src="./img/hemel.jpg"> <i class="fa-solid fa-sort-down"></i>
+    </div>
+  </div>
+</div>
+<!-- post-container 2 end -->
+<!-- post-container 3 start -->
+<div class="post-container">
+  <div class="post-row">
+    <div class="user-profile">
+      <img src="./img/hemel.jpg" >
+      <div>
+        <p>John Nicholson</p>
+        <span>June 24 2021,13:40pm </span>
+      </div>
+    </div>
+    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+  </div> 
+  
+  <p class="post-text" >Rating my work on github account to this work <span>@prankhan</span> my github user name <a href="#">#prankhan</a> <a href="#">#github</a> </p>
+  <img src="./img/feed-3.jpeg" class="post-img">
+  <div class="post-row">
+    <div class="activity-icons">
+      <div><img src="./img/like.png">2k</div>
+      <div><img src="./img/comments.png">200</div>
+      <div><img src="./img/share.png">50</div>
+    </div>
+    <div class="post-profile-icon">
+<img src="./img/hemel.jpg"> <i class="fa-solid fa-sort-down"></i>
+    </div>
+  </div>
+</div>
+<!-- post-container 3 end -->
+<!-- post-container 4 start -->
+<div class="post-container">
+  <div class="post-row">
+    <div class="user-profile">
+      <img src="./img/hemel.jpg" >
+      <div>
+        <p>John Nicholson</p>
+        <span>June 24 2021,13:40pm </span>
+      </div>
+    </div>
+    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+  </div> 
+  
+  <p class="post-text" >Rating my work on github account to this work <span>@prankhan</span> my github user name <a href="#">#prankhan</a> <a href="#">#github</a> </p>
+  <img src="./img/feed-4.jpeg" class="post-img">
+  <div class="post-row">
+    <div class="activity-icons">
+      <div><img src="./img/like.png">2.6k</div>
+      <div><img src="./img/comments.png">1k</div>
+      <div><img src="./img/share.png">500</div>
+    </div>
+    <div class="post-profile-icon">
+<img src="./img/hemel.jpg"> <i class="fa-solid fa-sort-down"></i>
+    </div>
+  </div>
+</div>
+<!-- post-container 4 end -->
+<!-- post-container 5 sart -->
+<div class="post-container">
+  <div class="post-row">
+    <div class="user-profile">
+      <img src="./img/hemel.jpg" >
+      <div>
+        <p>John Nicholson</p>
+        <span>June 24 2022,13:55pm </span>
+      </div>
+    </div>
+    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+  </div> 
+  
+  <p class="post-text" >Rating my work on github account to this work <span>@prankhan</span> my github user name <a href="#">#prankhan</a> <a href="#">#github</a> </p>
+  <img src="./img/feed-5.jpg" class="post-img">
+  <div class="post-row">
+    <div class="activity-icons">
+      <div><img src="./img/like.png">1.2k</div>
+      <div><img src="./img/comments.png">500</div>
+      <div><img src="./img/share.png">40</div>
+    </div>
+    <div class="post-profile-icon">
+<img src="./img/hemel.jpg"> <i class="fa-solid fa-sort-down"></i>
+    </div>
+  </div>
+</div>
+
+<!-- post-container 5  end -->
+<button type="button" class="load-more-btn">Lode More</button>
+      </div>
+      <!-- main-content end -->
+      <!-- right-sidebar start -->
+
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p>
+              <i class="fa-sharp fa-solid fa-location-dot"></i> Willson Tech
+              Park
+            </p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>22</h3>
+            <span>June</span>
+          </div>
+          <div class="right-event">
+            <h4>Mobile Marketing</h4>
+            <p>
+              <i class="fa-sharp fa-solid fa-location-dot"></i> Willson Tech
+              Park
+            </p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="sidebar-title">
+            <h4>Advertisement</h4>
+            <a href="#">Close</a>
+          </div>
+          <img src="./img/advertisment-feed.jpeg" class="sidebar-ads">
+
+
+          <div class="sidebar-title">
+            <h4>Conversation</h4>
+            <a href="#">Hide Chat</a>
+          </div>
+<div class="online-list">
+    <div class="online">
+        <img src="./img/member-7.png" alt="">
+    </div>
+    <p>Alison Mina</p>
+</div>
+<div class="online-list">
+    <div class="online">
+        <img src="./img/photo6.png" alt="">
+    </div>
+    <p>Jackson  And</p>
+</div>
+<div class="online-list">
+    <div class="online">
+        <img src="./img/photo5.png" alt="">
+    </div>
+    <p>Robert Rose</p>
+</div>
+
+
+
+
+
+      </div>
+      <!-- right-sidebar end -->
+    </div>
+
+
+<div class="footer">
+  <p>Copyright 2023-prankhan.github account</p>
+</div>
+<!-- js file start -->
+
+
+
+
+
+
+<script src="./js/script.js"></script>
+<!-- js file end -->
+  </body>
+</html>
